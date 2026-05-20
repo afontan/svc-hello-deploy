@@ -4,10 +4,11 @@ kind: Kustomization
 namespace: svc-hello
 
 resources:
-  - namespace.yaml
-  - deployment.yaml
-  - service.yaml
+- namespace.yaml
+- deployment.yaml
+- service.yaml
 
 images:
-  - name: ghcr.io/afontan/svc-hello
-    newTag: dev   # CI bumps this on every push to main
+- name: ghcr.io/afontan/svc-hello
+  newName: ghcr.io/afontan/svc-hello
+  newTag: 7c528a0
