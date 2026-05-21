@@ -11,4 +11,4 @@ resources:
 images:
 - name: ghcr.io/afontan/svc-hello
   newName: ghcr.io/afontan/svc-hello
-  newTag: "6232910"
+  newTag: 57c4d1b
