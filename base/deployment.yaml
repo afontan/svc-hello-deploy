@@ -8,7 +8,7 @@ metadata:
     tags.datadoghq.com/env: dev
     tags.datadoghq.com/version: dev
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app.kubernetes.io/name: svc-hello
