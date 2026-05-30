@@ -12,3 +12,9 @@ images:
 - name: ghcr.io/afontan/svc-hello
   newName: ghcr.io/afontan/svc-hello
   newTag: "18174e7"
+
+labels:
+- pairs:
+    tags.datadoghq.com/version: "18174e7"
+  includeSelectors: false
+  includeTemplates: true
